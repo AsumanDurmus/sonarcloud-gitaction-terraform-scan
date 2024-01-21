@@ -1,5 +1,6 @@
 # aws-terraform-github-oidc
 Deploy to AWS with Terraform within a GitHub Action
+Scan via SocnarCloud
 
 ## Development Steps:
 - Create Indentity Provider in IAM
