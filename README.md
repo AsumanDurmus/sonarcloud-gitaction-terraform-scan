@@ -2,6 +2,8 @@
 Deploy to AWS with Terraform within a GitHub Action
 Scan via SocnarCloud
 
+Scan documentation. please [refer here](https://github.com/SonarSource/sonarcloud-github-action)
+
 ## Development Steps:
 - Create Indentity Provider in IAM
 - - IAM > Identity Providers > Add Provider > OpenID Connect
