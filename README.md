@@ -26,6 +26,7 @@ Scan documentation. please [refer here](https://github.com/SonarSource/sonarclou
 <img width="920" alt="image" src="https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/e6f9a6e5-11dc-4e44-8d07-c76eee782fe4">
 
 - ***Update GitAction pipeline yml***
+[pipeline yml](https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/blob/main/.github/workflows/pipeline.yml)
 ```
 env:
       GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
