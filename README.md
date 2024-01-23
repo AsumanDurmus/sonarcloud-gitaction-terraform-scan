@@ -6,20 +6,24 @@ Scan documentation. please [refer here](https://github.com/SonarSource/sonarclou
 
 - ***Create GIT PAT (Personal Access Token )***
 - - Click on top right user icon > Settings > Developers settings > Personal Access token > Tokens
-  - Click on button 'Generate new token'
+  - Click on the button 'Generate new token'
   - Give a name and submit
-  - Don't forget to copy the token it shows on screen
+  - Don't forget to copy the token it shows on the screen
  
 <img width="923" alt="image" src="https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/06f8ea98-314f-4b68-b271-0ef302ab707b">
 
  
-- ***Create SONAR CLOUD TOKEN (Personal Access Token )***
-- - Click on top right user icon > Settings > Developers settings > Personal Access token > Tokens
+- ***Create SONAR TOKEN (Personal Access Token )***
+- - Click on top right user icon > My account > Security Tab
+  - Enter a name for token and generate
+ 
+![image](https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/109fe374-befc-4b96-b2fe-496cbf2d4004)
 
 
-- ***Setup Git Secrets using above two tokens***
+
+- ***Setup Git Secrets using the above two tokens***
 - - Click on the repository > go to that particular repository 'Settings' > Secrets and Variables > Actions
-  - Click button 'New repository secret' and add GIT_TOKEN and SONAR_TOKEN 
+  - Click the button 'New repository secret' and add GIT_TOKEN and SONAR_TOKEN 
 <img width="920" alt="image" src="https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/e6f9a6e5-11dc-4e44-8d07-c76eee782fe4">
 
 # SonarCloud Scan
