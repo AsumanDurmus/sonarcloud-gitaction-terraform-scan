@@ -15,7 +15,7 @@ Scan documentation. please [refer here](https://github.com/SonarSource/sonarclou
  
 - ***Create SONAR TOKEN (Personal Access Token )***
 - - Click on top right user icon > My account > Security Tab
-  - Enter a name for token and generate
+  - Enter a name for the token and generate
  
 ![image](https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/109fe374-befc-4b96-b2fe-496cbf2d4004)
 
@@ -33,6 +33,11 @@ env:
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 ```
 
+## Want to point to your particular sonar URL?
+```
+# use below arg in the pipeline. 
+-Dsonar.host.url = https://sonarcloud.io
+```
 
 
 # SonarCloud Scan
@@ -41,7 +46,7 @@ env:
 # Section: Setup GitAction Pipeline
 
 ## Development Steps:
-- Create Indentity Provider in IAM
+- Create identity provider in IAM
 - - IAM > Identity Providers > Add Provider > OpenID Connect
   - Provider: https://token.actions.githubusercontent.com
   - Click 'Get Thumbprint'
