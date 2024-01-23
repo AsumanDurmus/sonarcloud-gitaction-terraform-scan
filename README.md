@@ -22,6 +22,8 @@ Scan documentation. please [refer here](https://github.com/SonarSource/sonarclou
   - Click button 'New repository secret' and add GIT_TOKEN and SONAR_TOKEN 
 <img width="920" alt="image" src="https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/e6f9a6e5-11dc-4e44-8d07-c76eee782fe4">
 
+# SonarCloud Scan
+![image](https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/d191a958-3d44-4576-916d-9708c05c35ca)
 
 
 # Section: Setup GitAction Pipeline
