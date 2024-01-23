@@ -9,6 +9,17 @@ Scan documentation. please [refer here](https://github.com/SonarSource/sonarclou
   - Click on button 'Generate new token'
   - Give a name and submit
   - Don't forget to copy the token it shows on screen
+ 
+- ***Create SONAR CLOUD TOKEN (Personal Access Token )***
+- - Click on top right user icon > Settings > Developers settings > Personal Access token > Tokens
+
+
+- ***Setup Git Secrets using above two tokens***
+- - Click on the repository > go to that particular repository 'Settings' > Secrets and Variables > Actions
+  - Click button 'New repository secret' and add GIT_TOKEN and SONAR_TOKEN 
+<img width="920" alt="image" src="https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/e6f9a6e5-11dc-4e44-8d07-c76eee782fe4">
+
+
 
 # Section: Setup GitAction Pipeline
 
