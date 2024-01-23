@@ -1,8 +1,16 @@
-# aws-terraform-github-oidc
-Deploy to AWS with Terraform within a GitHub Action
-Scan via SocnarCloud
+# GitAction integration with SonarCloud for Terraform code scan
 
 Scan documentation. please [refer here](https://github.com/SonarSource/sonarcloud-github-action)
+
+# Section: Code scan with SonarCloud
+
+- ***Create GIT PAT (Personal Access Token )***
+- - Click on top right user icon > Settings > Developers settings > Personal Access token > Tokens
+  - Click on button 'Generate new token'
+  - Give a name and submit
+  - Don't forget to copy the token it shows on screen
+
+# Section: Setup GitAction Pipeline
 
 ## Development Steps:
 - Create Indentity Provider in IAM
