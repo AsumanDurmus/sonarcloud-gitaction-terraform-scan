@@ -10,6 +10,9 @@ Scan documentation. please [refer here](https://github.com/SonarSource/sonarclou
   - Give a name and submit
   - Don't forget to copy the token it shows on screen
  
+<img width="923" alt="image" src="https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/06f8ea98-314f-4b68-b271-0ef302ab707b">
+
+ 
 - ***Create SONAR CLOUD TOKEN (Personal Access Token )***
 - - Click on top right user icon > Settings > Developers settings > Personal Access token > Tokens
 
