@@ -3,6 +3,10 @@ on:
   workflow_dispatch:
 
 jobs:
+  Sonar_Scan:
+    if: github.ref == 'refs/heads/main'
+    uses: e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/.github/workflows/sonar-cloud-scan.yml@main
+    
   Plan_Dev:
     if: github.ref == 'refs/heads/main'
     uses: e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/.github/workflows/aws_tf_plan.yml@main
