@@ -13,7 +13,7 @@ Scan documentation. please [refer here](https://github.com/SonarSource/sonarclou
 <img width="923" alt="image" src="https://github.com/e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/assets/62712515/06f8ea98-314f-4b68-b271-0ef302ab707b">
 
  
-- ***Create SONAR TOKEN (Personal Access Token )***
+- ***Create SONAR TOKEN (Personal Access Token )*** Open [sonar cloud](https://www.sonarsource.com/)
 - - Click on top right user icon > My account > Security Tab
   - Enter a name for the token and generate
  
