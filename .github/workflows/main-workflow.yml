@@ -5,7 +5,7 @@ on:
 jobs:
   Sonar_Scan:
     if: github.ref == 'refs/heads/main'
-    uses: e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/.github/workflows/sonar-cloud-scan.yml@main
+    uses: e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/.github/workflows/scan.yml@main
     
   Plan_Dev:
     if: github.ref == 'refs/heads/main'
