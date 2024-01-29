@@ -6,6 +6,9 @@ jobs:
   Sonar_Scan:
     if: github.ref == 'refs/heads/main'
     uses: e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/.github/workflows/scan.yml@main
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     
   Plan_Dev:
     needs: Sonar_Scan
