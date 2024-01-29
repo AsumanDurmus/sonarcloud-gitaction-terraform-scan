@@ -1,9 +1,10 @@
-name: "SonarCloud integration with Git Action pipeline"
+name: "SonarCloud Scan"
 on:
   workflow_dispatch:
 
 jobs:
-  DemoSonarCloudSCan:
+  sonar-cloud-scan:
+    name: SonarCloud Scan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
