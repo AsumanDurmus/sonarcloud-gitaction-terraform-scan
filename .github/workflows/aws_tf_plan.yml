@@ -27,10 +27,10 @@ jobs:
     name: Terraform Plan
     runs-on: ubuntu-latest
     environment: ${{ inputs.gh_environment }}
-    defaults:
-      run:
-        shell: bash
-        working-directory: ${{ inputs.path }}
+    # defaults:
+    #   run:
+    #     shell: bash
+    #     working-directory: ${{ inputs.path }}
         
     steps:
       - name: Checkout
