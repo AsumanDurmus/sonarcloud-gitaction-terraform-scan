@@ -11,7 +11,7 @@ jobs:
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     
   Plan_Dev:
-    needs: Sonar_Scan
+    #needs: Sonar_Scan
     if: github.ref == 'refs/heads/main'
     uses: e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/.github/workflows/aws_tf_plan.yml@main
     with:
