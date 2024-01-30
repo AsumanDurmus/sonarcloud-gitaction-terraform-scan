@@ -39,7 +39,6 @@ jobs:
           secret: ${{ steps.generate_token.outputs.token }}
           approvers: thesolutionarchitect # is a comma-delimited list of all required approvers. An approver can either be a user or an org team.
           minimum-approvals: 1
-          timeout-minutes: 2
           exclude-workflow-initiator-as-approver: false # in production it should be true
           
       - name: Checkout
