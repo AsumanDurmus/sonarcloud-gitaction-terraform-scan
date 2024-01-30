@@ -16,7 +16,7 @@ jobs:
     uses: e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/.github/workflows/aws_tf_plan.yml@main
     with:
       #path: project/project1
-      path: /
+      path: .
       tf_version: 1.7.1
       tf_vars_file: env/dev.tfvars
       gh_environment: dev
@@ -26,7 +26,7 @@ jobs:
     uses: e2eSolutionArchitect/sonarcloud-gitaction-terraform-scan/.github/workflows/aws_tf_apply.yml@main
     with:
       #path: project/project2
-      path: /
+      path: .
       tf_version: 1.7.1
       tf_vars_file: env/dev.tfvars
       gh_environment: dev
