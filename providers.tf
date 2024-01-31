@@ -8,7 +8,7 @@ terraform {
   required_version = ">= 1.7.1"
 }
 provider "aws" {
-  region  = 'us-east-1'
+  region  = "us-east-1"
   #profile = "awskey" # remove  for pipeline, use when using CLI to execute terraform
 }
 
