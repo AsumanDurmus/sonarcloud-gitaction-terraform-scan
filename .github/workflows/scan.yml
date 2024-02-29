@@ -25,4 +25,4 @@ jobs:
         with:
           args: >
               -Dsonar.organization=asumanndurmuss
-              -Dsonar.projectKey=sonarcloud-gitaction-terraform-scan
+              -Dsonar.projectKey=asumanndurmuss_sonarcloud-gitaction-terraform-scan
