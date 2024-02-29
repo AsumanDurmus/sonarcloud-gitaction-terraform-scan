@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Git clone the repository
         uses: actions/checkout@v4
+      - name: aws role
+        run: echo "xx:${{ secrets.AWS_ROLE }}"
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v3
         with:
